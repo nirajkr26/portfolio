@@ -272,7 +272,7 @@ function App() {
                       <ExternalLink className="w-3.5 h-3.5 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
                     </p>
                     <h3 className="text-2xl lg:text-3xl font-bold text-white mb-2 group-hover:text-amber-100 transition-colors tracking-tight">Explore My Journey</h3>
-                    <p className="text-gray-400 text-sm">Skills, experience & achievements — all in one place</p>
+                    <p className="text-gray-400 text-sm">Skills, projects & achievements — all in one place</p>
                   </div>
                 </div>
               </div>
@@ -817,3 +817,5 @@ function App() {
 }
 
 export default App;
+
+
