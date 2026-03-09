@@ -31,7 +31,7 @@ export default function VisitCounter() {
 
     return (
         <span>
-            <span className="text-orange-400 font-bold tabular-nums">{count.toLocaleString()}</span> portfolio visits
+            <span className="text-green-400 font-bold tabular-nums">{count.toLocaleString()}</span> portfolio visits
         </span>
     );
 }

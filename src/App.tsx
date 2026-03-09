@@ -161,17 +161,17 @@ function App() {
         <aside className="profile-sidebar">
           <div className="bg-white rounded-3xl p-6 text-black w-full max-w-[20rem] relative overflow-hidden shadow-2xl">
             {/* Decorative gradient blob */}
-            <div className="absolute -top-10 -right-10 w-32 h-32 bg-linear-to-br from-orange-400/30 to-amber-300/20 rounded-full blur-2xl"></div>
-            <div className="absolute -bottom-8 -left-8 w-28 h-28 bg-linear-to-tr from-orange-300/20 to-transparent rounded-full blur-xl"></div>
+            <div className="absolute -top-10 -right-10 w-32 h-32 bg-linear-to-br from-green-400/30 to-green-300/20 rounded-full blur-2xl"></div>
+            <div className="absolute -bottom-8 -left-8 w-28 h-28 bg-linear-to-tr from-green-300/20 to-transparent rounded-full blur-xl"></div>
 
 
 
             <div className="relative z-10">
               {/* Photo with decorative ring */}
               <div className="relative mb-5 z-10">
-                <div className="absolute -top-4 -left-4 w-[calc(100%+2rem)] h-[calc(100%+2rem)] border-[2.5px] border-solid border-orange-300/50 rounded-[1.75rem] rotate-[8deg]"></div>
-                <div className="absolute -top-3 -left-3 w-[calc(100%+1.5rem)] h-[calc(100%+1.5rem)] border-2 border-dashed border-orange-200/50 rounded-3xl rotate-[-8deg]"></div>
-                <div className="p-2 bg-linear-to-br from-orange-200 to-orange-100 rounded-[1.25rem] relative z-10">
+                <div className="absolute -top-4 -left-4 w-[calc(100%+2rem)] h-[calc(100%+2rem)] border-[2.5px] border-solid border-green-300/50 rounded-[1.75rem] rotate-[8deg]"></div>
+                <div className="absolute -top-3 -left-3 w-[calc(100%+1.5rem)] h-[calc(100%+1.5rem)] border-2 border-dashed border-green-200/50 rounded-3xl rotate-[-8deg]"></div>
+                <div className="p-2 bg-linear-to-br from-green-200 to-green-100 rounded-[1.25rem] relative z-10">
                   <img
                     src={profileImg}
                     alt="Profile"
@@ -191,13 +191,13 @@ function App() {
 
               {/* Social icons with backgrounds */}
               <div className="flex justify-center gap-5 pb-1">
-                <a href="https://github.com/nirajkr26" target='_blank' className="text-orange-500 hover:text-orange-600 hover:scale-110 transition-all">
+                <a href="https://github.com/nirajkr26" target='_blank' className="text-green-500 hover:text-green-600 hover:scale-110 transition-all">
                   <Github className="w-5 h-5 stroke-[1.5]" />
                 </a>
-                <a href="https://www.linkedin.com/in/nirajkr26/" target='_blank' className="text-orange-500 hover:text-orange-600 hover:scale-110 transition-all">
+                <a href="https://www.linkedin.com/in/nirajkr26/" target='_blank' className="text-green-500 hover:text-green-600 hover:scale-110 transition-all">
                   <Linkedin className="w-5 h-5 stroke-[1.5]" />
                 </a>
-                <a href="mailto:nirajkumargupta2642006@gmail.com" className="text-orange-500 hover:text-orange-600 hover:scale-110 transition-all">
+                <a href="mailto:nirajkumargupta2642006@gmail.com" className="text-green-500 hover:text-green-600 hover:scale-110 transition-all">
                   <Mail className="w-5 h-5 stroke-[1.5]" />
                 </a>
               </div>
@@ -223,19 +223,19 @@ function App() {
             <div className="grid grid-cols-3 gap-6 mb-12 max-w-xl w-full text-sm sm:text-base">
               <div>
                 <div className="text-4xl lg:text-5xl font-bold mb-2">
-                  10<span className="text-orange-500">+</span>
+                  10<span className="text-green-500">+</span>
                 </div>
                 <div className="text-xs text-gray-400 uppercase tracking-wide">Projects Completed</div>
               </div>
               <div>
                 <div className="text-4xl lg:text-5xl font-bold mb-2">
-                  15<span className="text-orange-500">+</span>
+                  15<span className="text-green-500">+</span>
                 </div>
                 <div className="text-xs text-gray-400 uppercase tracking-wide">Active Repositories</div>
               </div>
               <div>
                 <div className="text-4xl lg:text-5xl font-bold mb-2">
-                  700<span className="text-orange-500">+</span>
+                  700<span className="text-green-500">+</span>
                 </div>
                 <div className="text-xs text-gray-400 uppercase tracking-wide">Coding Questions</div>
               </div>
@@ -249,8 +249,8 @@ function App() {
               className="group block w-full max-w-xl relative"
             >
               {/* Static glow orbs */}
-              <div className="absolute -top-10 -right-10 w-48 h-48 bg-orange-500 rounded-full blur-[100px] pointer-events-none group-hover:bg-orange-400 transition-colors duration-500 opacity-60"></div>
-              <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-amber-400 rounded-full blur-[80px] pointer-events-none group-hover:bg-amber-300 transition-colors duration-500 opacity-60"></div>
+              <div className="absolute -top-10 -right-10 w-48 h-48 bg-green-500 rounded-full blur-[100px] pointer-events-none group-hover:bg-green-400 transition-colors duration-500 opacity-60"></div>
+              <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-green-400 rounded-full blur-[80px] pointer-events-none group-hover:bg-green-300 transition-colors duration-500 opacity-60"></div>
 
               <div className="contact-card-wrapper w-full">
                 {/* Decorative Tilted Frames (Borders) */}
@@ -258,20 +258,20 @@ function App() {
                 <div className="contact-frame frame-tilt-2 group-hover:translate-x-1 group-hover:-translate-y-0.5 group-hover:rotate-3 transition-all! duration-1200! ease-out"></div>
                 <div className="contact-frame frame-tilt-3 group-hover:translate-y-1 group-hover:rotate-6 transition-all! duration-1200! ease-out"></div>
 
-                <div className="relative bg-gray-950/95 backdrop-blur-2xl rounded-3xl p-6 lg:p-8 overflow-hidden shadow-2xl border border-white/5 group-hover:border-orange-500/20 transition-colors duration-500">
+                <div className="relative bg-gray-950/95 backdrop-blur-2xl rounded-3xl p-6 lg:p-8 overflow-hidden shadow-2xl border border-white/5 group-hover:border-green-500/20 transition-colors duration-500">
                   {/* Decorative subtle rings */}
-                  <div className="absolute -top-10 -right-10 w-32 h-32 border-2 border-orange-500/20 rounded-full pointer-events-none group-hover:border-orange-500/40 group-hover:scale-110 transition-all duration-700 ease-out"></div>
-                  <div className="absolute -top-5 -right-5 w-20 h-20 border-2 border-dashed border-orange-500/30 rounded-full pointer-events-none group-hover:border-orange-500/50 group-hover:rotate-15 transition-all duration-700 ease-out"></div>
+                  <div className="absolute -top-10 -right-10 w-32 h-32 border-2 border-green-500/20 rounded-full pointer-events-none group-hover:border-green-500/40 group-hover:scale-110 transition-all duration-700 ease-out"></div>
+                  <div className="absolute -top-5 -right-5 w-20 h-20 border-2 border-dashed border-green-500/30 rounded-full pointer-events-none group-hover:border-green-500/50 group-hover:rotate-15 transition-all duration-700 ease-out"></div>
 
                   {/* Corner accent */}
-                  <div className="absolute bottom-0 left-0 w-32 h-32 bg-linear-to-tr from-orange-500/10 to-transparent rounded-tr-full pointer-events-none group-hover:from-orange-500/20 transition-colors duration-500"></div>
+                  <div className="absolute bottom-0 left-0 w-32 h-32 bg-linear-to-tr from-green-500/10 to-transparent rounded-tr-full pointer-events-none group-hover:from-green-500/20 transition-colors duration-500"></div>
 
                   <div className="relative z-10">
-                    <p className="flex items-center gap-1.5 text-orange-400 text-xs font-semibold uppercase tracking-widest mb-2 group-hover:text-orange-300 transition-colors">
+                    <p className="flex items-center gap-1.5 text-green-400 text-xs font-semibold uppercase tracking-widest mb-2 group-hover:text-green-300 transition-colors">
                       View My Resume
                       <ExternalLink className="w-3.5 h-3.5 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
                     </p>
-                    <h3 className="text-2xl lg:text-3xl font-bold text-white mb-2 group-hover:text-amber-100 transition-colors tracking-tight">Explore My Journey</h3>
+                    <h3 className="text-2xl lg:text-3xl font-bold text-white mb-2 group-hover:text-green-100 transition-colors tracking-tight">Explore My Journey</h3>
                     <p className="text-gray-400 text-sm">Skills, projects & achievements — all in one place</p>
                   </div>
                 </div>
@@ -294,7 +294,7 @@ function App() {
                   </div>
                   <div className="flex-1 min-w-0 flex flex-col justify-between">
                     <div>
-                      <h3 className="text-lg font-bold mb-1 group-hover:text-orange-400 transition-colors">Linkly</h3>
+                      <h3 className="text-lg font-bold mb-1 group-hover:text-green-400 transition-colors">Linkly</h3>
                       <p className="text-gray-400 text-sm leading-relaxed mb-4">A web platform that transforms long URLs into secure, customizable short links with built-in analytics.</p>
                     </div>
                     {/* Action Links */}
@@ -303,7 +303,7 @@ function App() {
                         <Github className="w-3.5 h-3.5" />
                         Code
                       </a>
-                      <a href="#" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 text-xs font-semibold text-orange-400 hover:text-orange-300 bg-orange-500/10 hover:bg-orange-500/20 px-3 py-1.5 rounded-lg border border-orange-500/20 hover:border-orange-500/40 transition-colors">
+                      <a href="#" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 text-xs font-semibold text-green-400 hover:text-green-300 bg-green-500/10 hover:bg-green-500/20 px-3 py-1.5 rounded-lg border border-green-500/20 hover:border-green-500/40 transition-colors">
                         <ExternalLink className="w-3.5 h-3.5" />
                         Live Demo
                       </a>
@@ -328,7 +328,7 @@ function App() {
                     <h3 className="text-lg font-bold mb-1">LeetCode</h3>
                     <p className="text-gray-400 text-sm">Solved 300+ Data Structure and Algorithms problems on Leetcode.</p>
                   </div>
-                  <ExternalLink className="w-5 h-5 text-gray-600 group-hover:text-orange-400 transition-colors shrink-0 ml-4" />
+                  <ExternalLink className="w-5 h-5 text-gray-600 group-hover:text-green-400 transition-colors shrink-0 ml-4" />
                 </div>
               </a>
               <a href="https://www.geeksforgeeks.org/profile/nirajkr26" target="_blank" className="scroll-reveal-child group block bg-gray-900/60 border border-gray-800 rounded-2xl p-5 hover:border-gray-600 hover:scale-[1.02] transition-all duration-300 cursor-pointer">
@@ -337,15 +337,15 @@ function App() {
                     <h3 className="text-lg font-bold mb-1">GeeksForGeeeks</h3>
                     <p className="text-gray-400 text-sm">Solved 450+ Data Structure and Algorithms problems on GFG.</p>
                   </div>
-                  <ExternalLink className="w-5 h-5 text-gray-600 group-hover:text-orange-400 transition-colors shrink-0 ml-4" />
+                  <ExternalLink className="w-5 h-5 text-gray-600 group-hover:text-green-400 transition-colors shrink-0 ml-4" />
                 </div>
               </a>
             </div>
 
             {/* LeetCode Heatmap */}
             <div className="mt-12 max-w-2xl">
-              <h3 className="scroll-reveal-child text-lg font-semibold text-orange-400 uppercase tracking-widest mb-5 flex items-center gap-2">
-                <span className="w-8 h-px bg-orange-500/60"></span>
+              <h3 className="scroll-reveal-child text-lg font-semibold text-green-400 uppercase tracking-widest mb-5 flex items-center gap-2">
+                <span className="w-8 h-px bg-green-500/60"></span>
                 LeetCode Activity
               </h3>
               <div className="scroll-reveal-child">
@@ -355,8 +355,8 @@ function App() {
 
             {/* GitHub Heatmap */}
             <div className="mt-12 max-w-2xl">
-              <h3 className="scroll-reveal-child text-lg font-semibold text-orange-400 uppercase tracking-widest mb-5 flex items-center gap-2">
-                <span className="w-8 h-px bg-orange-500/60"></span>
+              <h3 className="scroll-reveal-child text-lg font-semibold text-green-400 uppercase tracking-widest mb-5 flex items-center gap-2">
+                <span className="w-8 h-px bg-green-500/60"></span>
                 GitHub Contributions
               </h3>
               <div className="scroll-reveal-child bg-gray-900/60 border border-gray-800 rounded-2xl p-6 hover:border-gray-700 transition-all duration-300">
@@ -369,7 +369,7 @@ function App() {
                     blockRadius={3}
                     fontSize={12}
                     theme={{
-                      dark: ['#161b22', '#7c2d12', '#c2410c', '#ea580c', '#f97316'],
+                      dark: ['#161b22', '#1b7c12', '#35c20c', '#0cea26', '#16f930'],
                     }}
                   />
                 </div>
@@ -385,8 +385,8 @@ function App() {
             </h2>
 
             {/* Programming Languages */}
-            <h3 className="text-lg font-semibold text-orange-400 uppercase tracking-widest mb-5 flex items-center gap-2">
-              <span className="w-8 h-px bg-orange-500/60"></span>
+            <h3 className="text-lg font-semibold text-green-400 uppercase tracking-widest mb-5 flex items-center gap-2">
+              <span className="w-8 h-px bg-green-500/60"></span>
               Programming Languages
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-2xl mb-12">
@@ -438,8 +438,8 @@ function App() {
             </div>
 
             {/* Technologies & Tools */}
-            <h3 className="text-lg font-semibold text-orange-400 uppercase tracking-widest mb-5 flex items-center gap-2">
-              <span className="w-8 h-px bg-orange-500/60"></span>
+            <h3 className="text-lg font-semibold text-green-400 uppercase tracking-widest mb-5 flex items-center gap-2">
+              <span className="w-8 h-px bg-green-500/60"></span>
               Technologies & Tools
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-2xl">
@@ -497,8 +497,8 @@ function App() {
                   <p className="text-gray-500 text-xs">Containerization</p>
                 </div>
               </div>
-              <div className="scroll-reveal-child flex items-center gap-4 bg-gray-900/60 border border-gray-800 rounded-2xl px-5 py-4 hover:border-orange-500/40 hover:bg-orange-500/[0.03] transition-all duration-300 cursor-pointer group">
-                <div className="w-11 h-11 bg-orange-500/15 rounded-xl flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-300">
+              <div className="scroll-reveal-child flex items-center gap-4 bg-gray-900/60 border border-gray-800 rounded-2xl px-5 py-4 hover:border-green-500/40 hover:bg-green-500/[0.03] transition-all duration-300 cursor-pointer group">
+                <div className="w-11 h-11 bg-green-500/15 rounded-xl flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-300">
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" className="w-7 h-7" />
                 </div>
                 <div>
@@ -515,8 +515,8 @@ function App() {
                   <p className="text-gray-500 text-xs">Code Hosting</p>
                 </div>
               </div>
-              <div className="scroll-reveal-child flex items-center gap-4 bg-gray-900/60 border border-gray-800 rounded-2xl px-5 py-4 hover:border-orange-400/40 hover:bg-orange-400/[0.03] transition-all duration-300 cursor-pointer group">
-                <div className="w-11 h-11 bg-orange-400/15 rounded-xl flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-300">
+              <div className="scroll-reveal-child flex items-center gap-4 bg-gray-900/60 border border-gray-800 rounded-2xl px-5 py-4 hover:border-green-400/40 hover:bg-green-400/[0.03] transition-all duration-300 cursor-pointer group">
+                <div className="w-11 h-11 bg-green-400/15 rounded-xl flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-300">
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" alt="Postman" className="w-7 h-7" />
                 </div>
                 <div>
@@ -524,8 +524,8 @@ function App() {
                   <p className="text-gray-500 text-xs">API Testing</p>
                 </div>
               </div>
-              <div className="scroll-reveal-child flex items-center gap-4 bg-gray-900/60 border border-gray-800 rounded-2xl px-5 py-4 hover:border-amber-500/40 hover:bg-amber-500/[0.03] transition-all duration-300 cursor-pointer group">
-                <div className="w-11 h-11 bg-amber-500/15 rounded-xl flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-300">
+              <div className="scroll-reveal-child flex items-center gap-4 bg-gray-900/60 border border-gray-800 rounded-2xl px-5 py-4 hover:border-green-500/40 hover:bg-green-500/[0.03] transition-all duration-300 cursor-pointer group">
+                <div className="w-11 h-11 bg-green-500/15 rounded-xl flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-300">
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux" className="w-7 h-7" />
                 </div>
                 <div>
@@ -550,7 +550,7 @@ function App() {
                     <div className="w-12 h-12 rounded-xl bg-purple-600/10 flex items-center justify-center shrink-0">
                       <img src="https://www.google.com/s2/favicons?domain=udemy.com&sz=128" alt="Udemy" className="w-7 h-7 rounded-sm" />
                     </div>
-                    <ExternalLink className="w-5 h-5 text-gray-600 group-hover:text-orange-400 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all" />
+                    <ExternalLink className="w-5 h-5 text-gray-600 group-hover:text-green-400 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all" />
                   </div>
                   <h3 className="text-lg font-bold text-white mb-2">Full Stack Generative & Agentic AI with Python</h3>
                   <p className="text-gray-400 text-sm">Udemy</p>
@@ -563,7 +563,7 @@ function App() {
                     <div className="w-12 h-12 rounded-xl bg-blue-600/10 flex items-center justify-center shrink-0">
                       <img src="https://www.google.com/s2/favicons?domain=coursera.org&sz=128" alt="Coursera" className="w-7 h-7 rounded-sm" />
                     </div>
-                    <ExternalLink className="w-5 h-5 text-gray-600 group-hover:text-orange-400 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all" />
+                    <ExternalLink className="w-5 h-5 text-gray-600 group-hover:text-green-400 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all" />
                   </div>
                   <h3 className="text-lg font-bold text-white mb-2">Software Development Processes & Methodologies</h3>
                   <p className="text-gray-400 text-sm">Coursera (University of Minnesota)</p>
@@ -576,7 +576,7 @@ function App() {
                     <div className="w-12 h-12 rounded-xl bg-cyan-500/10 flex items-center justify-center shrink-0">
                       <img src="https://www.google.com/s2/favicons?domain=coursera.org&sz=128" alt="Coursera" className="w-7 h-7 rounded-sm" />
                     </div>
-                    <ExternalLink className="w-5 h-5 text-gray-600 group-hover:text-orange-400 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all" />
+                    <ExternalLink className="w-5 h-5 text-gray-600 group-hover:text-green-400 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all" />
                   </div>
                   <h3 className="text-lg font-bold text-white mb-2">Computer Communications Specialization</h3>
                   <p className="text-gray-400 text-sm">Coursera (University of Colorado)</p>
@@ -586,10 +586,10 @@ function App() {
               <a href="/certifications/dsa.pdf" target="_blank" rel="noopener noreferrer" className="scroll-reveal-child bg-gray-900/60 border border-gray-800 rounded-2xl p-6 hover:border-gray-600 hover:scale-[1.02] transition-all duration-300 cursor-pointer group flex flex-col justify-between min-h-40">
                 <div>
                   <div className="flex justify-between items-start mb-4">
-                    <div className="w-12 h-12 rounded-xl bg-amber-500/10 flex items-center justify-center shrink-0">
+                    <div className="w-12 h-12 rounded-xl bg-green-500/10 flex items-center justify-center shrink-0">
                       <img src="https://www.google.com/s2/favicons?domain=lpu.in&sz=128" alt="LPU" className="w-7 h-7 rounded-sm" />
                     </div>
-                    <ExternalLink className="w-5 h-5 text-gray-600 group-hover:text-orange-400 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all" />
+                    <ExternalLink className="w-5 h-5 text-gray-600 group-hover:text-green-400 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all" />
                   </div>
                   <h3 className="text-lg font-bold text-white mb-2">Data Structures & Algorithms</h3>
                   <p className="text-gray-400 text-sm">Lovely Professional University</p>
@@ -602,7 +602,7 @@ function App() {
                     <div className="w-12 h-12 rounded-xl bg-sky-500/10 flex items-center justify-center shrink-0">
                       <img src="https://www.google.com/s2/favicons?domain=nptel.ac.in&sz=128" alt="NPTEL" className="w-7 h-7 rounded-sm" />
                     </div>
-                    <ExternalLink className="w-5 h-5 text-gray-600 group-hover:text-orange-400 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all" />
+                    <ExternalLink className="w-5 h-5 text-gray-600 group-hover:text-green-400 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all" />
                   </div>
                   <h3 className="text-lg font-bold text-white mb-2">Cloud Computing</h3>
                   <p className="text-gray-400 text-sm">NPTEL (IIT Kharagpur)</p>
@@ -612,10 +612,10 @@ function App() {
               <a href="/certifications/summertraining.pdf" target="_blank" rel="noopener noreferrer" className="scroll-reveal-child bg-gray-900/60 border border-gray-800 rounded-2xl p-6 hover:border-gray-600 hover:scale-[1.02] transition-all duration-300 cursor-pointer group flex flex-col justify-between min-h-40">
                 <div>
                   <div className="flex justify-between items-start mb-4">
-                    <div className="w-12 h-12 rounded-xl bg-orange-500/10 flex items-center justify-center shrink-0">
-                      <svg className="w-7 h-7 text-orange-400" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" /></svg>
+                    <div className="w-12 h-12 rounded-xl bg-green-500/10 flex items-center justify-center shrink-0">
+                      <svg className="w-7 h-7 text-green-400" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" /></svg>
                     </div>
-                    <ExternalLink className="w-5 h-5 text-gray-600 group-hover:text-orange-400 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all" />
+                    <ExternalLink className="w-5 h-5 text-gray-600 group-hover:text-green-400 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all" />
                   </div>
                   <h3 className="text-lg font-bold text-white mb-2">Full Stack (MERN) with Gen AI & Industrial Practices</h3>
                   <p className="text-gray-400 text-sm">W3 Grads — FLAMES '25 Training</p>
@@ -640,8 +640,8 @@ function App() {
               <div className="contact-particle"></div>
 
               {/* Pulsing glow orbs - now static */}
-              <div className="absolute -top-20 -right-20 w-56 h-56 bg-orange-500 rounded-full blur-[200px] pointer-events-none"></div>
-              <div className="absolute -bottom-16 -left-16 w-44 h-44 bg-amber-400 rounded-full blur-[100px] pointer-events-none"></div>
+              <div className="absolute -top-20 -right-20 w-56 h-56 bg-green-500 rounded-full blur-[200px] pointer-events-none"></div>
+              <div className="absolute -bottom-16 -left-16 w-44 h-44 bg-green-400 rounded-full blur-[100px] pointer-events-none"></div>
 
               {/* Animated gradient border card */}
               <div className="contact-card-wrapper">
@@ -652,11 +652,11 @@ function App() {
 
                 <div className="relative bg-gray-950/95 backdrop-blur-2xl rounded-3xl p-6 lg:p-8 overflow-hidden">
                   {/* Static decorative rings */}
-                  <div className="absolute -top-8 -right-8 w-32 h-32 border-2 border-orange-500/20 rounded-full pointer-events-none"></div>
-                  <div className="absolute -top-4 -right-4 w-20 h-20 border-2 border-dashed border-orange-500/30 rounded-full pointer-events-none"></div>
+                  <div className="absolute -top-8 -right-8 w-32 h-32 border-2 border-green-500/20 rounded-full pointer-events-none"></div>
+                  <div className="absolute -top-4 -right-4 w-20 h-20 border-2 border-dashed border-green-500/30 rounded-full pointer-events-none"></div>
 
                   {/* Corner accent */}
-                  <div className="absolute bottom-0 left-0 w-32 h-32 bg-linear-to-tr from-orange-500/15 to-transparent rounded-tr-full pointer-events-none"></div>
+                  <div className="absolute bottom-0 left-0 w-32 h-32 bg-linear-to-tr from-green-500/15 to-transparent rounded-tr-full pointer-events-none"></div>
 
                   <form onSubmit={handleSubmit} className="relative z-10 space-y-6">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -668,7 +668,7 @@ function App() {
                           onChange={handleChange}
                           required
                           placeholder="Your Name"
-                          className="w-full bg-white/[0.03] border border-white/[0.08] rounded-xl px-4 py-2.5 text-sm placeholder-orange-500/80 focus:outline-none focus:border-orange-500/50 focus:bg-orange-500/[0.03] focus:shadow-[0_0_30px_rgba(249,115,22,0.08)] transition-all duration-500"
+                          className="w-full bg-white/[0.03] border border-white/[0.08] rounded-xl px-4 py-2.5 text-sm placeholder-green-500/80 focus:outline-none focus:border-green-500/50 focus:bg-green-500/[0.03] focus:shadow-[0_0_30px_rgba(249,115,22,0.08)] transition-all duration-500"
                         />
                       </div>
                       <div className="group">
@@ -679,7 +679,7 @@ function App() {
                           onChange={handleChange}
                           required
                           placeholder="Your Email"
-                          className="w-full bg-white/[0.03] border border-white/[0.08] rounded-xl px-4 py-2.5 text-sm placeholder-orange-500/80 focus:outline-none focus:border-orange-500/50 focus:bg-orange-500/[0.03] focus:shadow-[0_0_30px_rgba(249,115,22,0.08)] transition-all duration-500"
+                          className="w-full bg-white/[0.03] border border-white/[0.08] rounded-xl px-4 py-2.5 text-sm placeholder-green-500/80 focus:outline-none focus:border-green-500/50 focus:bg-green-500/[0.03] focus:shadow-[0_0_30px_rgba(249,115,22,0.08)] transition-all duration-500"
                         />
                       </div>
                     </div>
@@ -691,7 +691,7 @@ function App() {
                         onChange={handleChange}
                         required
                         placeholder="Subject"
-                        className="w-full bg-white/[0.03] border border-white/[0.08] rounded-xl px-4 py-2.5 text-sm placeholder-orange-500/80 focus:outline-none focus:border-orange-500/50 focus:bg-orange-500/[0.03] focus:shadow-[0_0_30px_rgba(249,115,22,0.08)] transition-all duration-500"
+                        className="w-full bg-white/[0.03] border border-white/[0.08] rounded-xl px-4 py-2.5 text-sm placeholder-green-500/80 focus:outline-none focus:border-green-500/50 focus:bg-green-500/[0.03] focus:shadow-[0_0_30px_rgba(249,115,22,0.08)] transition-all duration-500"
                       />
                     </div>
                     <div className="group">
@@ -702,7 +702,7 @@ function App() {
                         required
                         rows={5}
                         placeholder="Message..."
-                        className="w-full bg-white/[0.03] border border-white/[0.08] rounded-xl px-4 py-2.5 text-sm placeholder-orange-500/80 focus:outline-none focus:border-orange-500/50 focus:bg-orange-500/[0.03] focus:shadow-[0_0_30px_rgba(249,115,22,0.08)] transition-all duration-500 resize-none"
+                        className="w-full bg-white/[0.03] border border-white/[0.08] rounded-xl px-4 py-2.5 text-sm placeholder-green-500/80 focus:outline-none focus:border-green-500/50 focus:bg-green-500/[0.03] focus:shadow-[0_0_30px_rgba(249,115,22,0.08)] transition-all duration-500 resize-none"
                       ></textarea>
                     </div>
 
@@ -719,7 +719,7 @@ function App() {
                       <div className={`text-sm font-medium px-4 py-2 rounded-lg transition-all duration-500 transform ${isStatusVisible ? 'opacity-100 translate-y-0 scale-100' : 'opacity-0 -translate-y-2 scale-95 pointer-events-none'
                         } ${status === 'error' ? 'bg-red-500/10 text-red-400' :
                           status === 'success' ? 'bg-yellow-600/10 text-yellow-500' :
-                            'bg-orange-500/10 text-orange-400'
+                            'bg-green-500/10 text-green-400'
                         }`}>
                         {statusMessage}
                       </div>
@@ -728,7 +728,7 @@ function App() {
                     <button
                       type="submit"
                       disabled={status === 'loading'}
-                      className="group relative w-full overflow-hidden bg-orange-600 text-white font-bold py-3.5 rounded-xl transition-all duration-300 hover:bg-orange-500 hover:shadow-[0_8px_30px_rgba(249,115,22,0.25)] hover:-translate-y-0.5 active:translate-y-0 active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:translate-y-0"
+                      className="group relative w-full overflow-hidden bg-green-600 text-white font-bold py-3.5 rounded-xl transition-all duration-300 hover:bg-green-500 hover:shadow-[0_8px_30px_rgba(249,115,22,0.25)] hover:-translate-y-0.5 active:translate-y-0 active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:translate-y-0"
                     >
                       <span className="relative z-10 flex items-center justify-center gap-2 tracking-wide uppercase text-xs">
                         Send Message
@@ -746,8 +746,8 @@ function App() {
       {/* Footer */}
       <footer className="mt-12 relative overflow-hidden">
         {/* Decorative glow */}
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-px bg-gradient-to-r from-transparent via-orange-500/50 to-transparent"></div>
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-96 h-24 bg-orange-500/10 rounded-full blur-[80px] pointer-events-none"></div>
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-px bg-gradient-to-r from-transparent via-green-500/50 to-transparent"></div>
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-96 h-24 bg-green-500/10 rounded-full blur-[80px] pointer-events-none"></div>
 
         <div className="max-w-7xl mx-auto px-6 lg:px-12 pt-16 pb-8">
           {/* Top row: Social + Back to Top */}
@@ -755,20 +755,20 @@ function App() {
             {/* Social links */}
             <div className="flex items-center gap-4">
               <a href="https://github.com/nirajkr26" target="_blank" rel="noopener noreferrer"
-                className="group text-gray-500 hover:text-orange-400 transition-colors duration-300">
-                <div className="w-10 h-10 rounded-xl bg-gray-800/80 border border-gray-700/50 flex items-center justify-center group-hover:border-orange-500/30 group-hover:bg-orange-500/10 transition-all duration-300">
+                className="group text-gray-500 hover:text-green-400 transition-colors duration-300">
+                <div className="w-10 h-10 rounded-xl bg-gray-800/80 border border-gray-700/50 flex items-center justify-center group-hover:border-green-500/30 group-hover:bg-green-500/10 transition-all duration-300">
                   <Github className="w-[18px] h-[18px]" />
                 </div>
               </a>
               <a href="https://www.linkedin.com/in/nirajkr26/" target="_blank" rel="noopener noreferrer"
-                className="group text-gray-500 hover:text-orange-400 transition-colors duration-300">
-                <div className="w-10 h-10 rounded-xl bg-gray-800/80 border border-gray-700/50 flex items-center justify-center group-hover:border-orange-500/30 group-hover:bg-orange-500/10 transition-all duration-300">
+                className="group text-gray-500 hover:text-green-400 transition-colors duration-300">
+                <div className="w-10 h-10 rounded-xl bg-gray-800/80 border border-gray-700/50 flex items-center justify-center group-hover:border-green-500/30 group-hover:bg-green-500/10 transition-all duration-300">
                   <Linkedin className="w-[18px] h-[18px]" />
                 </div>
               </a>
               <a href="mailto:nirajkumargupta2642006@gmail.com"
-                className="group text-gray-500 hover:text-orange-400 transition-colors duration-300">
-                <div className="w-10 h-10 rounded-xl bg-gray-800/80 border border-gray-700/50 flex items-center justify-center group-hover:border-orange-500/30 group-hover:bg-orange-500/10 transition-all duration-300">
+                className="group text-gray-500 hover:text-green-400 transition-colors duration-300">
+                <div className="w-10 h-10 rounded-xl bg-gray-800/80 border border-gray-700/50 flex items-center justify-center group-hover:border-green-500/30 group-hover:bg-green-500/10 transition-all duration-300">
                   <Mail className="w-[18px] h-[18px]" />
                 </div>
               </a>
@@ -776,9 +776,9 @@ function App() {
 
             {/* Back to top */}
             <a href="#home"
-              className="group flex items-center gap-2 text-gray-500 hover:text-orange-400 transition-colors duration-300 text-sm font-medium">
+              className="group flex items-center gap-2 text-gray-500 hover:text-green-400 transition-colors duration-300 text-sm font-medium">
               Back to top
-              <div className="w-8 h-8 rounded-lg bg-gray-800/80 border border-gray-700/50 flex items-center justify-center group-hover:border-orange-500/30 group-hover:bg-orange-500/10 group-hover:-translate-y-0.5 transition-all duration-300">
+              <div className="w-8 h-8 rounded-lg bg-gray-800/80 border border-gray-700/50 flex items-center justify-center group-hover:border-green-500/30 group-hover:bg-green-500/10 group-hover:-translate-y-0.5 transition-all duration-300">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
                 </svg>
@@ -789,7 +789,7 @@ function App() {
           {/* Visit counter pill */}
           <div className="flex justify-center mb-10">
             <div className="flex items-center gap-3 bg-gray-900/60 border border-gray-800 rounded-full px-5 py-2.5">
-              <div className="w-2 h-2 rounded-full bg-orange-500 animate-pulse"></div>
+              <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></div>
               <span className="text-gray-500 text-xs font-medium tracking-wide">
                 <VisitCounter />
               </span>
@@ -802,11 +802,11 @@ function App() {
           {/* Copyright */}
           <div className="flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-gray-600">
             <p>
-              © {new Date().getFullYear()} <a href="https://github.com/nirajkr26" target="_blank" rel="noopener noreferrer" className="text-orange-500/80 hover:text-orange-400 transition-colors">Niraj Kumar</a>. All rights reserved.
+              © {new Date().getFullYear()} <a href="https://github.com/nirajkr26" target="_blank" rel="noopener noreferrer" className="text-green-500/80 hover:text-green-400 transition-colors">Niraj Kumar</a>. All rights reserved.
             </p>
             <p className="flex items-center gap-1.5">
               Built with
-              <span className="text-orange-500">♥</span>
+              <span className="text-green-500">♥</span>
               using Vite, React & TypeScript
             </p>
           </div>
