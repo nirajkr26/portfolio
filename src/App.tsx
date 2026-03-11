@@ -243,7 +243,7 @@ function App() {
 
             {/* Resume Card */}
             <a
-              href="/resume.pdf"
+              href="/NirajResumeUpdated.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="group block w-full max-w-xl relative"
