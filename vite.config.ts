@@ -5,4 +5,17 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  server: {
+    proxy: {
+      '/api/leetcode': {
+        target: 'https://leetcode.com',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api\/leetcode/, '/graphql'),
+        headers: {
+          'Origin': 'https://leetcode.com',
+          'Referer': 'https://leetcode.com/',
+        }
+      }
+    }
+  }
 })

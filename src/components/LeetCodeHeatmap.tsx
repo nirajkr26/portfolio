@@ -6,7 +6,7 @@ interface LeetCodeHeatmapProps {
 }
 
 const theme: ThemeInput = {
-    dark: ['#161b22', '#7c2d12', '#c2410c', '#ea580c', '#f97316'],
+    dark: ['#161b22', '#1b7c12', '#35c20c', '#0cea26', '#16f930'],
 };
 
 type Activity = { date: string; count: number; level: 0 | 1 | 2 | 3 | 4 };
@@ -39,26 +39,42 @@ function transformData(submissionCalendar: Record<string, number>): Activity[] {
     return result;
 }
 
-const PROXY_URLS = [
-    (u: string) => `https://alfa-leetcode-api.onrender.com/${u}`,
-];
-
 async function fetchLeetCodeData(username: string, signal: AbortSignal): Promise<Activity[]> {
-    for (const getUrl of PROXY_URLS) {
-        try {
-            const res = await fetch(getUrl(username), { signal });
-            if (!res.ok) throw new Error(`Proxy HTTP ${res.status}`);
-            const json = await res.json();
-            const calendar = typeof json.submissionCalendar === 'string'
-                ? JSON.parse(json.submissionCalendar)
-                : json.submissionCalendar;
-            return transformData(calendar);
-        } catch (err) {
-            if ((err as Error).name === 'AbortError') throw err;
-            // try next proxy
+    try {
+        const res = await fetch('/api/leetcode', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                operationName: 'userProfileCalendar',
+                query: 'query userProfileCalendar($username: String!) { matchedUser(username: $username) { userCalendar { submissionCalendar } } }',
+                variables: {
+                    username: username,
+                },
+            }),
+            signal,
+        });
+
+        if (!res.ok) throw new Error(`LeetCode API HTTP ${res.status}`);
+
+        const json = await res.json();
+        const submissionCalendar = json.data?.matchedUser?.userCalendar?.submissionCalendar;
+
+        if (!submissionCalendar) {
+            throw new Error('Invalid or missing data from LeetCode API');
         }
+
+        const calendar =
+            typeof submissionCalendar === 'string'
+                ? JSON.parse(submissionCalendar)
+                : submissionCalendar;
+
+        return transformData(calendar);
+    } catch (err) {
+        if ((err as Error).name === 'AbortError') throw err;
+        throw err;
     }
-    throw new Error('All proxy endpoints failed');
 }
 
 export default function LeetCodeHeatmap({ username }: LeetCodeHeatmapProps) {
