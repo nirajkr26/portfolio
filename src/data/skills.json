@@ -1,0 +1,119 @@
+{
+    "categories": [
+        {
+            "title": "Programming Languages",
+            "skills": [
+                {
+                    "name": "JavaScript",
+                    "description": "Programming Language",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+                    "color": "yellow",
+                    "iconClass": ""
+                },
+                {
+                    "name": "TypeScript",
+                    "description": "Programming Language",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+                    "color": "blue",
+                    "iconClass": ""
+                },
+                {
+                    "name": "Python",
+                    "description": "Programming Language",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+                    "color": "sky",
+                    "iconClass": ""
+                },
+                {
+                    "name": "C++",
+                    "description": "Programming Language",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
+                    "color": "blue-600",
+                    "iconClass": ""
+                },
+                {
+                    "name": "Java",
+                    "description": "Programming Language",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+                    "color": "red",
+                    "iconClass": ""
+                }
+            ]
+        },
+        {
+            "title": "Technologies & Tools",
+            "skills": [
+                {
+                    "name": "React.js",
+                    "description": "Frontend Library",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+                    "color": "cyan",
+                    "iconClass": ""
+                },
+                {
+                    "name": "Node.js",
+                    "description": "Backend Runtime",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+                    "color": "green-600",
+                    "iconClass": ""
+                },
+                {
+                    "name": "Express.js",
+                    "description": "Backend Framework",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+                    "color": "gray",
+                    "iconClass": "invert"
+                },
+                {
+                    "name": "MongoDB",
+                    "description": "NoSQL Database",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+                    "color": "green",
+                    "iconClass": ""
+                },
+                {
+                    "name": "PostgreSQL",
+                    "description": "Relational Database",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+                    "color": "blue-400",
+                    "iconClass": ""
+                },
+                {
+                    "name": "Docker",
+                    "description": "Containerization",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+                    "color": "sky-600",
+                    "iconClass": ""
+                },
+                {
+                    "name": "Git",
+                    "description": "Version Control",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+                    "color": "green",
+                    "iconClass": ""
+                },
+                {
+                    "name": "GitHub",
+                    "description": "Code Hosting",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+                    "color": "purple",
+                    "iconClass": "invert"
+                },
+                {
+                    "name": "Postman",
+                    "description": "API Testing",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg",
+                    "color": "green-400",
+                    "iconClass": ""
+                },
+                {
+                    "name": "Linux",
+                    "description": "Operating System",
+                    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
+                    "color": "green",
+                    "iconClass": ""
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+[
+    {
+        "title": "Full Stack Generative & Agentic AI with Python",
+        "issuer": "Udemy",
+        "certificateLink": "/certifications/genAI.pdf",
+        "icon": "https://www.google.com/s2/favicons?domain=udemy.com&sz=128",
+        "iconColor": "purple"
+    },
+    {
+        "title": "Software Development Processes & Methodologies",
+        "issuer": "Coursera (University of Minnesota)",
+        "certificateLink": "/certifications/software.pdf",
+        "icon": "https://www.google.com/s2/favicons?domain=coursera.org&sz=128",
+        "iconColor": "blue"
+    },
+    {
+        "title": "Computer Communications Specialization",
+        "issuer": "Coursera (University of Colorado)",
+        "certificateLink": "/certifications/computerCommunications.pdf",
+        "icon": "https://www.google.com/s2/favicons?domain=coursera.org&sz=128",
+        "iconColor": "cyan"
+    },
+    {
+        "title": "Data Structures & Algorithms",
+        "issuer": "Lovely Professional University",
+        "certificateLink": "/certifications/dsa.pdf",
+        "icon": "https://www.google.com/s2/favicons?domain=lpu.in&sz=128",
+        "iconColor": "green"
+    },
+    {
+        "title": "Cloud Computing",
+        "issuer": "NPTEL (IIT Kharagpur)",
+        "certificateLink": "/certifications/CloudComputingNPTEL.pdf",
+        "icon": "https://www.google.com/s2/favicons?domain=nptel.ac.in&sz=128",
+        "iconColor": "sky"
+    },
+    {
+        "title": "Full Stack (MERN) with Gen AI & Industrial Practices",
+        "issuer": "W3 Grads — FLAMES '25 Training",
+        "certificateLink": "/certifications/summertraining.pdf",
+        "isSvg": true,
+        "iconColor": "green"
+    }
+]

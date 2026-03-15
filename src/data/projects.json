@@ -1,0 +1,9 @@
+[
+  {
+    "title": "Digital Coupon Organiser",
+    "description": "A web app that lets users save, categorize, track, and manage online store coupons with expiration reminders, search, filter, and delete options.",
+    "img": "/projects/coupon.png",
+    "githubLink": "https://github.com/nirajkr26/coupon-organizer",
+    "liveLink": "https://coupon-organizer.vercel.app/"
+  }
+]
