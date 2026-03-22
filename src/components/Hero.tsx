@@ -1,15 +1,29 @@
 import { ExternalLink } from "lucide-react"
 
 const Hero = () => {
+  const handleResumeClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    const resumeUrl = '/NirajResumeUpdated.pdf';
+
+    const downloadLink = document.createElement('a');
+    downloadLink.href = resumeUrl;
+    downloadLink.download = 'NirajResumeUpdated.pdf';
+    document.body.appendChild(downloadLink);
+    downloadLink.click();
+    document.body.removeChild(downloadLink);
+
+    window.open(resumeUrl, '_blank', 'noopener,noreferrer');
+  };
+
+
   return (
     <section id="home" className="pt-6 pb-20 px-6 lg:px-12 flex flex-col items-center lg:items-start text-center lg:text-left">
             <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold mb-6 leading-[0.95]">
               SOFTWARE<br />
               <span className="text-gray-700">DEVELOPER</span>
             </h1>
-            <p className="text-gray-400 text-base lg:text-lg mb-12 max-w-xl leading-relaxed">
-              Architecting scalable, user-centric web applications.
-              Dedicated to transforming complex challenges into elegant, high-performance software.
+            <p className="text-gray-400 text-base hover:text-gray-300 lg:text-lg mb-12 max-w-xl leading-relaxed">
+              I am a pre-final year B.Tech Computer Science student and dedicated Full-Stack Developer. With a strong foundation in Data Structures and Algorithms, I focus on architecting scalable, user-centric web applications and transforming complex challenges into elegant software solutions. Outside of coding, I stay balanced through music and the outdoors. I am always eager to learn, collaborate, and turn innovative ideas into reality.
             </p>
 
             {/* Stats */}
@@ -38,6 +52,8 @@ const Hero = () => {
             <a
               href="/NirajResumeUpdated.pdf"
               target="_blank"
+              onClick={handleResumeClick}
+              download="NirajResumeUpdated.pdf"
               rel="noopener noreferrer"
               className="group block w-full max-w-xl relative"
             >
@@ -64,7 +80,7 @@ const Hero = () => {
                       View My Resume
                       <ExternalLink className="w-3.5 h-3.5 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
                     </p>
-                    <h3 className="text-2xl lg:text-3xl font-bold text-white mb-2 group-hover:text-green-100 transition-colors tracking-tight">Explore My Journey</h3>
+                    <h3 className="text-2xl lg:text-3xl font-bold text-white mb-2 group-hover:text-green-100 transition-colors tracking-tight">Download Resume</h3>
                     <p className="text-gray-400 text-sm">Skills, projects & achievements — all in one place</p>
                   </div>
                 </div>

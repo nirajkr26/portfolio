@@ -1,4 +1,4 @@
-import { Award, Code2, Folder, Home, Mail, Wrench } from "lucide-react"
+import { Award, Code2, Folder, GraduationCap, Home, Mail, Wrench } from "lucide-react"
 
 const Navbar = () => {
   return (
@@ -7,6 +7,11 @@ const Navbar = () => {
           <a href="#home" className="nav-icon-btn">
             <Home />
             <span className="nav-tooltip">Home</span>
+          </a>
+          <span className="nav-dot" />
+          <a href="#education" className="nav-icon-btn">
+            <GraduationCap />
+            <span className="nav-tooltip">Education</span>
           </a>
           <span className="nav-dot" />
           <a href="#projects" className="nav-icon-btn">
