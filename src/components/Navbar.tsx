@@ -14,24 +14,24 @@ const Navbar = () => {
             <span className="nav-tooltip">Education</span>
           </a>
           <span className="nav-dot" />
-          <a href="#projects" className="nav-icon-btn">
-            <Folder />
-            <span className="nav-tooltip">Projects</span>
-          </a>
-          <span className="nav-dot" />
-          <a href="#coding-profiles" className="nav-icon-btn">
-            <Code2 />
-            <span className="nav-tooltip">Coding Profiles</span>
-          </a>
-          <span className="nav-dot" />
           <a href="#tools" className="nav-icon-btn">
             <Wrench />
             <span className="nav-tooltip">Skills</span>
           </a>
           <span className="nav-dot" />
+          <a href="#projects" className="nav-icon-btn">
+            <Folder />
+            <span className="nav-tooltip">Projects</span>
+          </a>
+          <span className="nav-dot" />
           <a href="#certifications" className="nav-icon-btn">
             <Award />
             <span className="nav-tooltip">Certifications</span>
+          </a>
+          <span className="nav-dot" />
+          <a href="#coding-profiles" className="nav-icon-btn">
+            <Code2 />
+            <span className="nav-tooltip">Coding Profiles</span>
           </a>
           <span className="nav-dot" />
           <a href="#contact" className="nav-icon-btn">
