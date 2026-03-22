@@ -5,5 +5,12 @@
     "img": "/projects/coupon.png",
     "githubLink": "https://github.com/nirajkr26/coupon-organizer",
     "liveLink": "https://coupon-organizer.vercel.app/"
+  },
+  {
+    "title": "Real Time Developer Network",
+    "description": "A premium networking platform for developers that uses 'swipe-to-match' to help engineers find collaborators and mentors with precision.",
+    "img": "/projects/devmatch.png",
+    "githubLink": "https://github.com/nirajkr26/devMatch",
+    "liveLink": "https://devmatch-connect.vercel.app/"
   }
 ]
