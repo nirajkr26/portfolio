@@ -12,5 +12,12 @@
     "img": "/projects/devmatch.png",
     "githubLink": "https://github.com/nirajkr26/devMatch",
     "liveLink": "https://devmatch-connect.vercel.app/"
+  },
+  {
+    "title": "Real Time Whiteboard",
+    "description": "A real-time collaborative whiteboard that allows multiple users to draw on the same canvas, share their drawings, and collaborate in real-time.",
+    "img": "/projects/whiteboard.png",
+    "githubLink": "https://github.com/nirajkr26/real-time-whiteboard",
+    "liveLink": "#"
   }
 ]

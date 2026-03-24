@@ -3,7 +3,7 @@ import { ExternalLink } from "lucide-react"
 const Hero = () => {
   const handleResumeClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
-    const resumeUrl = '/NirajResumeUpdated.pdf';
+    const resumeUrl = '/NirajResume.pdf';
 
     const downloadLink = document.createElement('a');
     downloadLink.href = resumeUrl;
@@ -50,7 +50,7 @@ const Hero = () => {
 
             {/* Resume Card */}
             <a
-              href="/NirajResumeUpdated.pdf"
+              href="/NirajResume.pdf"
               target="_blank"
               onClick={handleResumeClick}
               download="NirajResumeUpdated.pdf"
