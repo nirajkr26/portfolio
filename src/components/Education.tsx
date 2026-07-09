@@ -16,7 +16,7 @@ const Education = () => {
                     <div className="inline-flex items-center rounded-full border border-green-500/30 bg-green-500/10 px-4 py-1.5 mt-3">
                       <span className="text-xs text-gray-300">August 2023 - Present</span>
                     </div>
-                    <p className="text-gray-300 text-lg mt-4">CGPA: 8.55</p>
+                    <p className="text-gray-300 text-lg mt-4">CGPA: 8.6</p>
                   </article>
 
                   <article className="relative group">
@@ -26,7 +26,7 @@ const Education = () => {
                     <div className="inline-flex items-center rounded-full border border-green-500/30 bg-green-500/10 px-4 py-1.5 mt-3">
                       <span className="text-xs text-gray-300">Completed: March 2023</span>
                     </div>
-                    <p className="text-gray-300 text-lg mt-4">Percentage: 74.2%</p>
+                    <p className="text-gray-300 text-lg mt-4">Percentage: 74%</p>
                   </article>
 
                   <article className="relative group">
@@ -36,7 +36,7 @@ const Education = () => {
                     <div className="inline-flex items-center rounded-full border border-green-500/30 bg-green-500/10 px-4 py-1.5 mt-3">
                       <span className="text-xs text-gray-300">Completed: March 2021</span>
                     </div>
-                    <p className="text-gray-300 text-lg mt-4">Percentage: 69.8%</p>
+                    <p className="text-gray-300 text-lg mt-4">Percentage: 70%</p>
                   </article>
                 </div>
               </div>

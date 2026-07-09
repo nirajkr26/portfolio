@@ -7,7 +7,7 @@ const Hero = () => {
 
     const downloadLink = document.createElement('a');
     downloadLink.href = resumeUrl;
-    downloadLink.download = 'NirajResumeUpdated.pdf';
+    downloadLink.download = 'NirajResume.pdf';
     document.body.appendChild(downloadLink);
     downloadLink.click();
     document.body.removeChild(downloadLink);
@@ -23,7 +23,7 @@ const Hero = () => {
               <span className="text-gray-700">DEVELOPER</span>
             </h1>
             <p className="text-gray-400 text-base hover:text-gray-300 lg:text-lg mb-12 max-w-xl leading-relaxed">
-              I am a pre-final year B.Tech Computer Science student and dedicated Full-Stack Developer. With a strong foundation in Data Structures and Algorithms, I focus on architecting scalable, user-centric web applications and transforming complex challenges into elegant software solutions. Outside of coding, I stay balanced through music and the outdoors. I am always eager to learn, collaborate, and turn innovative ideas into reality.
+              I am a final year B.Tech Computer Science student and dedicated Full-Stack Developer. With a strong foundation in Data Structures and Algorithms, I focus on architecting scalable, user-centric web applications and transforming complex challenges into elegant software solutions. Outside of coding, I stay balanced through music and the outdoors. I am always eager to learn, collaborate, and turn innovative ideas into reality.
             </p>
 
             {/* Stats */}
@@ -42,7 +42,7 @@ const Hero = () => {
               </div>
               <div>
                 <div className="text-4xl lg:text-5xl font-bold mb-2">
-                  700<span className="text-green-500">+</span>
+                  800<span className="text-green-500">+</span>
                 </div>
                 <div className="text-xs text-gray-400 uppercase tracking-wide">Coding Questions</div>
               </div>
