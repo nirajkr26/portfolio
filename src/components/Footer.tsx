@@ -73,7 +73,7 @@ const Footer = () => {
           <p>
             © {new Date().getFullYear()} <a href="https://github.com/nirajkr26" target="_blank" rel="noopener noreferrer" className="text-green-500/80 hover:text-green-400 transition-colors">Niraj Kumar</a>. All rights reserved.
           </p>
-          
+
         </div>
       </div>
     </footer>
