@@ -7,7 +7,7 @@ const Hero = () => {
 
     const downloadLink = document.createElement('a');
     downloadLink.href = resumeUrl;
-    downloadLink.download = 'NirajResumeUpdated.pdf';
+    downloadLink.download = 'NirajResume.pdf';
     document.body.appendChild(downloadLink);
     downloadLink.click();
     document.body.removeChild(downloadLink);
